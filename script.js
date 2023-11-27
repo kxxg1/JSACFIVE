@@ -1,4 +1,5 @@
 // CHECKPOINT 1
+
 const WeatherChecker = new Promise((resolve, reject) => {
     const isWeather = true;
     let friends = 20
