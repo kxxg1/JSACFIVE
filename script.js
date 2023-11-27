@@ -50,6 +50,29 @@ function randomForecast() {
   });
 }
 
+// CHECKPOINT 2
+function getData() {
+  fetch('https://onlineprojectsgit.github.io/API/WDEndpoint.json')
+      .then(response => {
+          // Check if the response is OK
+          if (response.ok) {
+              return response.json(); // Parse and return the JSON response
+          } else {
+              throw new Error('Request failed'); // If response is not OK, throw an error
+          }
+      })
+      .then(data => {
+          console.log(data); // Log the data to the console
+          return data; // Return the data for further processing
+      })
+      .catch(error => {
+          console.error(error.message); // Log any errors that occur during the fetch
+      });
+}
+
+// Call the function to execute the fetch
+getData();
+
 
 
 
