@@ -1,8 +1,8 @@
-# Event Planner Form (Javascript)
+# Event Planner App (Javascript)
 
 ## Description
 
-The form will allow the user to enter the following information: name and date of their event. The form will display a message that includes the user's name, date of the event, weather forecast, and the number of invites that should be sent.
+The App will allow the user to enter the following information: name and date of their event. The form will display a message that includes the user's name, date of the event, weather forecast, and the number of invites that should be sent.
 
 Sunny weather: invite 20 guests
 Rainy weather: invite 10 guests
