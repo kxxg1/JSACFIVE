@@ -10,7 +10,7 @@ Rainy weather: invite 10 guests
 ## Authors
 
 __Kash Ghanchi__
-[GitHub](https://github.com/kxxg1 "Kash's GitHub") / [LinkedIn](http://linkedin.com/in/kashg1/ "Kash's LinkedIn") / <kashgh9@gmail.com>
+[GitHub](https://github.com/kxxg1 "Kash's GitHub") / [LinkedIn](http://linkedin.com/in/kashg1/ "Kash's LinkedIn")
 
 ## Features
 
