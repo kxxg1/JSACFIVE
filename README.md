@@ -1,4 +1,4 @@
-# Event Party Planner Form (Javascript)
+# Event Planner Form (Javascript)
 
 ## Description
 
