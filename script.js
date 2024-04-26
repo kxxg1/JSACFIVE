@@ -35,6 +35,10 @@ document.querySelector('.user-form').addEventListener('submit', async function (
               listItem.textContent = error;
               resultList.appendChild(listItem);
           });
+        
+        // Reset the form inputs to their default values
+        e.target.reset();  
+
   } catch (error) {
       console.error("Error fetching the forecast: ", error);
   }
@@ -72,36 +76,6 @@ function getData() {
 
 // Call the function to execute the fetch
 getData();
-
-
-
-
-
-
-
-/*
-//   CHECKPOINT 2
-
-const getData = async () => {
-    const response = await fetch('https://onlineprojectsgit.github.io/API/WDEndpoint.json')
-    response.then((response) => {
-        if (!response.ok) {
-          throw new Error("Request failed");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data);
-        return data;
-      })
-      .catch((error) => {
-        console.log('Error', error)
-      });
-  }
-
-  // Checkpoint 3
-*/
-  
 
 
 
